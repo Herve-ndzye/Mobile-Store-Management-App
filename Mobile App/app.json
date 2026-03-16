@@ -1,0 +1,23 @@
+{
+    "expo": {
+        "name": "SmartPay Mobile",
+        "slug": "smartpaymobile",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "userInterfaceStyle": "dark",
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.mavics.smartpaymobile"
+        },
+        "android": {
+            "package": "com.mavics.smartpaymobile"
+        },
+        "plugins": [
+            "expo-router"
+        ],
+        "scheme": "smartpaymobile",
+        "experiments": {
+            "typedRoutes": false
+        }
+    }
+}

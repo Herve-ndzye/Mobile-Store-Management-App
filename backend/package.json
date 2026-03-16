@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "export:mongo": "echo \"Example exports: mongoexport --uri=$MONGODB_URI --collection=cards --out=cards.json && mongoexport --uri=$MONGODB_URI --collection=transactions --out=transactions.json && mongoexport --uri=$MONGODB_URI --collection=products --out=products.json\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1",
+    "mqtt": "^5.15.0",
+    "nodemon": "^3.1.11",
+    "socket.io": "^4.8.3"
+  }
+}

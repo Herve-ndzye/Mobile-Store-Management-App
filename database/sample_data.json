@@ -1,0 +1,177 @@
+{
+  "cards": [
+    {
+      "_id": "507f1f77bcf86cd799439011",
+      "card_uid": "A1B2C3D4",
+      "uid": "A1B2C3D4",
+      "holderName": "John Doe",
+      "balance": 15000,
+      "lastTopup": 10000,
+      "createdAt": "2024-03-01T10:00:00.000Z",
+      "updatedAt": "2024-03-16T12:30:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439012",
+      "card_uid": "E5F6G7H8",
+      "uid": "E5F6G7H8",
+      "holderName": "Jane Smith",
+      "balance": 8500,
+      "lastTopup": 5000,
+      "createdAt": "2024-03-05T14:20:00.000Z",
+      "updatedAt": "2024-03-15T09:15:00.000Z"
+    },
+    {
+      "_id": "507f1f77bcf86cd799439013",
+      "card_uid": "I9J0K1L2",
+      "uid": "I9J0K1L2",
+      "holderName": "Bob Johnson",
+      "balance": 2500,
+      "lastTopup": 2500,
+      "createdAt": "2024-03-10T08:45:00.000Z",
+      "updatedAt": "2024-03-10T08:45:00.000Z"
+    }
+  ],
+  "transactions": [
+    {
+      "_id": "607f1f77bcf86cd799439021",
+      "card_uid": "A1B2C3D4",
+      "uid": "A1B2C3D4",
+      "amount": 10000,
+      "type": "TOPUP",
+      "balanceBefore": 5000,
+      "balanceAfter": 15000,
+      "description": "Top-up of 10000",
+      "timestamp": "2024-03-16T12:30:00.000Z"
+    },
+    {
+      "_id": "607f1f77bcf86cd799439022",
+      "card_uid": "A1B2C3D4",
+      "uid": "A1B2C3D4",
+      "amount": 750,
+      "type": "PAYMENT",
+      "balanceBefore": 15000,
+      "balanceAfter": 14250,
+      "description": "Payment for Coffee x1",
+      "productId": "707f1f77bcf86cd799439031",
+      "productName": "Coffee",
+      "timestamp": "2024-03-16T13:00:00.000Z"
+    },
+    {
+      "_id": "607f1f77bcf86cd799439023",
+      "card_uid": "E5F6G7H8",
+      "uid": "E5F6G7H8",
+      "amount": 5000,
+      "type": "TOPUP",
+      "balanceBefore": 3500,
+      "balanceAfter": 8500,
+      "description": "Top-up of 5000",
+      "timestamp": "2024-03-15T09:15:00.000Z"
+    },
+    {
+      "_id": "607f1f77bcf86cd799439024",
+      "card_uid": "E5F6G7H8",
+      "uid": "E5F6G7H8",
+      "amount": 1200,
+      "type": "PAYMENT",
+      "balanceBefore": 8500,
+      "balanceAfter": 7300,
+      "description": "Payment for Burger x1",
+      "productId": "707f1f77bcf86cd799439035",
+      "productName": "Burger",
+      "timestamp": "2024-03-15T12:45:00.000Z"
+    },
+    {
+      "_id": "607f1f77bcf86cd799439025",
+      "card_uid": "I9J0K1L2",
+      "uid": "I9J0K1L2",
+      "amount": 2500,
+      "type": "TOPUP",
+      "balanceBefore": 0,
+      "balanceAfter": 2500,
+      "description": "Top-up of 2500",
+      "timestamp": "2024-03-10T08:45:00.000Z"
+    }
+  ],
+  "products": [
+    {
+      "_id": "707f1f77bcf86cd799439031",
+      "name": "Water Bottle",
+      "price": 500,
+      "category": "Beverages",
+      "emoji": "💧",
+      "active": true
+    },
+    {
+      "_id": "707f1f77bcf86cd799439032",
+      "name": "Orange Juice",
+      "price": 650,
+      "category": "Beverages",
+      "emoji": "🍊",
+      "active": true
+    },
+    {
+      "_id": "707f1f77bcf86cd799439033",
+      "name": "Coffee",
+      "price": 750,
+      "category": "Beverages",
+      "emoji": "☕",
+      "active": true
+    },
+    {
+      "_id": "707f1f77bcf86cd799439034",
+      "name": "Sandwich",
+      "price": 850,
+      "category": "Food",
+      "emoji": "🥪",
+      "active": true
+    },
+    {
+      "_id": "707f1f77bcf86cd799439035",
+      "name": "Burger",
+      "price": 1200,
+      "category": "Food",
+      "emoji": "🍔",
+      "active": true
+    },
+    {
+      "_id": "707f1f77bcf86cd799439036",
+      "name": "Pizza",
+      "price": 1000,
+      "category": "Food",
+      "emoji": "🍕",
+      "active": true
+    },
+    {
+      "_id": "707f1f77bcf86cd799439037",
+      "name": "Chocolate",
+      "price": 250,
+      "category": "Snacks",
+      "emoji": "🍫",
+      "active": true
+    },
+    {
+      "_id": "707f1f77bcf86cd799439038",
+      "name": "Cookies",
+      "price": 350,
+      "category": "Snacks",
+      "emoji": "🍪",
+      "active": true
+    },
+    {
+      "_id": "707f1f77bcf86cd799439039",
+      "name": "Popcorn",
+      "price": 400,
+      "category": "Snacks",
+      "emoji": "🍿",
+      "active": true
+    },
+    {
+      "_id": "707f1f77bcf86cd799439040",
+      "name": "Notebook",
+      "price": 350,
+      "category": "Stationery",
+      "emoji": "📓",
+      "active": true
+    }
+  ]
+}
